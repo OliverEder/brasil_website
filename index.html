@@ -1,0 +1,562 @@
+<!--
+  Author: Oliver Espinosa Meneses
+  Title: index.html
+  Proyect:Zapateria Brasil theme
+  Note: This page uses: 
+  bootrap 4.4, 
+  jquery 3.4.1, 
+  fontawesome 5.12, 
+  popper 1.14.7, 
+  lightbox 2.11.1, 
+  OwlCarousel 2.3.4, 
+  bootstrap-validator 0.11.9
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Zapateria Brasil</title>
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<!-- Bootstrap CSS https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- Style.css -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Plugins.css -->
+	<link rel="stylesheet" href="css/plugins.css">
+	<!-- Google Fonts https://fonts.google.com/ -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+	<!-- Animate.css https://cdnjs.com/libraries/animate.css/
+		https://daneden.github.io/animate.css/ -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<!-- Lightbox Image Gallery https://cdnjs.com/libraries/lightbox2  https://lokeshdhakar.com/projects/lightbox2/ -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
+	<!-- Owl Carousel https://cdnjs.com/libraries/OwlCarousel2
+		http://owlcarousel2.github.io/OwlCarousel2/ -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+	<!-- jQuery https://code.jquery.com/ -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+	<!-- Bootstrap JS https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+	<!-- Start Home Section -->
+	<div id="home">
+
+		<!-- Navigation -->
+		<nav class="navbar navbar-expand-lg fixed-top">
+			<div class="container-fluid">
+				<a href="#home" class="navbar-brand"><img src="img/logo_transparent_medium.png" alt=""></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+					<span class="custom-toggler-icon"><i class="fas fa-bars"></i></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a href="#home" class="nav-link">Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a href="#features" class="nav-link">Categorias</a>
+						</li>
+						<li class="nav-item">
+							<a href="#portfolio" class="nav-link">Productos</a>
+						</li>
+						<li class="nav-item">
+							<a href="#team" class="nav-link">Equipo</a>
+						</li>
+						<li class="nav-item">
+							<a href="#clients" class="nav-link">Clientes</a>
+						</li>
+						<li class="nav-item">
+							<a href="#contact" class="nav-link">Contacto</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</nav>
+		<!-- End Navigation -->
+
+		<!-- Start Landing Page Image -->
+		<div class="landing">
+			<div class="home-wrap">
+				<div class="home-inner"></div>
+			</div>
+		</div>
+		<!-- End Landing Page Image -->
+
+		<!-- Start Landing Page Caption -->
+		<div class="caption text-center text-light text-uppercase">
+
+			<h1 class="font-weight-bold os-animation" data-animation="fadeInUp" data-delay=".6s">Zapateria <span class="text-nuno">Brasil</span></h1>
+			<h3 class="os-animation" data-animation="fadeInUp" data-delay=".8s">Calzado para toda la familia</h3>
+			<a href="#features" class="btn btn-outline-light btn-lg rounded-0 os-animation" data-animation="fadeInUp" data-delay="1s">Conocenos</a>
+
+		</div>
+		<!-- End Landing Page Caption -->
+
+		<!-- Start Bouncing Down Arrow -->
+		<a href="#features" class="down-arrow text-center">
+			<div class="arrow d-none d-md-block">
+				<i class="fas fa-angle-down"></i>
+			</div>
+		</a>
+		<!-- End Bouncing Down Arrow -->
+
+	</div>
+	<!-- End Home Section -->
+
+
+	<!-- Start Features Section -->
+	<div id="features" class="offset">
+
+		<!-- Start Theme Heading 
+Photo by Ingo Joseph from Pexels
+-->
+		<!-- End Theme Heading -->
+
+		<!-- Start Jumbotron -->
+		<div class="jumbotron m-0 py-5">
+
+			<div class="col-12 os-animation" data-animation="fadeInUp">
+				<h3 class="heading">Categorias</h3>
+				<div class="heading-underline"></div>
+			</div>
+
+			<div class="container">
+				<div class="row text-center px-lg-4 px-xl-5">
+
+					<div class="col-sm-6 col-md-4 os-animation" data-animation="fadeInLeft">
+						<div class="feature px-2">
+							<img src="img/categorias/images-banner-category-mujer-botas.jpg" class="example-image w-100">
+							<h3>Botas</h3>
+							<p class="lead">Una gran variedad de botas para toda la familia.</p>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-4 os-animation" data-animation="fadeInUp">
+						<div class="feature px-2">
+							<img src="img/categorias/images-banner-category-mujer-botin.jpg" class="example-image w-100">
+							<h3>Botin</h3>
+							<p class="lead">Si buscas elegancia nuestra variedad de botines.</p>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-4 os-animation" data-animation="fadeInRight">
+						<div class="feature px-2">
+							<img src="img/categorias/images-banner-category-mujer-mocasines.jpg" class="example-image w-100">
+							<h3>Mocasines</h3>
+							<p class="lead">Los mocacines a la moda a los mejores precio.</p>
+						</div>
+					</div>
+
+					
+
+				</div> <!-- End Row -->
+			</div> <!-- End Container-->
+
+		</div> <!-- End Jumbotron -->
+
+		<!-- Start Fixed BG IMG Dark -->
+		<div class="fixed">
+
+			<div class="row dark text-light text-center">
+			
+				<div class="col-12 os-animation" data-animation="fadeInUp">
+					<h3 class="heading">Zapatos a la moda</h3>
+					<div class="heading-underline"></div>
+				</div>
+
+				<div class="col-md-4 os-animation" data-animation="fadeInLeft">
+					<h3>Atencion personalizada</h3>
+					<div class="feature py-2">
+						<span class="fa-layers fa-3x">
+							<i class="far fa-laugh-beam"></i>
+						</span>
+					</div>
+					<p class="lead">Un miembro de la familia de la brasil te ayudara en todo momento</p>
+				</div>
+
+				<div class="col-md-4 os-animation" data-animation="fadeInUp">
+					<h3>Excelentes precios</h3>
+					<div class="feature py-2">
+						<span class="fa-layers fa-3x">
+							<i class="fas fa-money-check-alt"></i>
+						</span>
+					</div>
+					<p class="lead">Precios de fabrica en todo el calzado, tu mejor opción en calidad y precios</p>
+				</div>
+
+				<div class="col-md-4 os-animation" data-animation="fadeInRight">
+					<h3>Variedad</h3>
+					<div class="feature py-2">
+						<span class="fa-layers fa-3x">
+							<i class="fas fa-shoe-prints"></i>
+						</span>
+					</div>
+					<p class="lead">Tenemos calzado a la moda para dama, elegante para caballero y divertido para niños y niñas</p>
+				</div>
+
+			</div> <!-- End Row Dark -->
+
+			<div class="fixed-wrap">
+				<div class="fixed-dark"></div>
+			</div>
+		</div>
+		<!-- End Fixed BG IMG Dark -->
+
+	</div>
+	<!-- End of Features Section -->
+
+
+	<!-- Start Portfolio Section -->
+	<div id="portfolio" class="offset">
+
+		<div class="container-fluid px-0">
+			<div class="row justify-content-center py-5">
+
+				<div class="col-12 mt-5 os-animation" data-animation="fadeInUp">
+					<h3 class="heading">Productos</h3>
+					<div class="heading-underline"></div>
+				</div>
+
+				<div class="col-sm-6 col-md-3 p-0 os-animation" data-animation="bounceInLeft" data-delay=".2s">
+					<div class="portfolio-item overflow-hidden">
+						<a href="img/portfolio/black.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
+							<img src="img/portfolio/black.jpg" alt="" class="example-image w-100">
+						</a>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-3 p-0 os-animation" data-animation="bounceInLeft">
+					<div class="portfolio-item overflow-hidden">
+						<a href="img/portfolio/vans-sneakers.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
+							<img src="img/portfolio/vans-sneakers.jpg" alt="" class="example-image w-100">
+						</a>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-3 p-0 os-animation" data-animation="bounceInRight">
+					<div class="portfolio-item overflow-hidden">
+						<a href="img/portfolio/black_boots.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
+							<img src="img/portfolio/black_boots.jpg" alt="" class="example-image w-100">
+						</a>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-3 p-0 os-animation" data-animation="bounceInRight" data-delay=".2s">
+					<div class="portfolio-item overflow-hidden">
+						<a href="img/portfolio/white_boots.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
+							<img src="img/portfolio/white_boots.jpg" alt="" class="example-image w-100">
+						</a>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-3 p-0 os-animation" data-animation="bounceInLeft" data-delay=".2s">
+					<div class="portfolio-item overflow-hidden">
+						<a href="img/portfolio/new_wave.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
+							<img src="img/portfolio/new_wave.jpg" alt="" class="example-image w-100">
+						</a>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-3 p-0 os-animation" data-animation="bounceInLeft">
+					<div class="portfolio-item overflow-hidden">
+						<a href="img/portfolio/nike-sneakers.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
+							<img src="img/portfolio/nike-sneakers.jpg" alt="" class="example-image w-100">
+						</a>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-3 p-0 os-animation" data-animation="bounceInRight">
+					<div class="portfolio-item overflow-hidden">
+						<a href="img/portfolio/black-boot.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
+							<img src="img/portfolio/black-boot.jpg" alt="" class="example-image w-100">
+						</a>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-3 p-0 os-animation" data-animation="bounceInRight" data-delay=".2s">
+					<div class="portfolio-item overflow-hidden">
+						<a href="img/portfolio/river.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
+							<img src="img/portfolio/river.jpg" alt="" class="example-image w-100">
+						</a>
+					</div>
+				</div>
+
+				<div class="col-10 col-lg-9 col-xl-8 text-center pt-5 os-animation" data-animation="fadeInUp">
+					<p class="lead">Ponte en contacto con nosotros y enamorate de nuestra gran variedad de zapatos para dama y caballero. Conciente a tus hijos con nuestra divertidad linea infantil para niño y para niña </p>
+					<a href="#contact" class="btn btn-secondary btn-sm">Contactanos</a>
+				</div>
+
+			</div> <!-- End Row -->
+		</div> <!-- End Container -->
+
+	</div>
+	<!-- End of Portfolio Section -->
+
+
+	
+	<!-- Start Team Section -->
+	<div id="team" class="offset">
+
+		<!-- Start Fixed BG IMG Light -->
+		<div class="fixed">
+
+			<div class="row light">
+
+				<div class="col-12 os-animation" data-animation="fadeInUp">
+					<h3 class="heading">Conoce a nuestro equipo</h3>
+					<div class="heading-underline"></div>
+				</div>
+
+				<div class="container">
+					<div class="os-animation" data-animation="fadeInUp">
+						<div id="team-carousel" class="owl-carousel owl-theme">
+
+							<div class="card">
+								<img src="img/team/team1.jpg" alt="" class="card-img-top rounded-0">
+								<div class="card-body">
+									<h4 class="font-weight-bold">Pedro Chavez</h4>
+									<h5 class="text-nuno">CEO</h5>
+									<p class="border-top border-bottom py-3 my-3">Pedro es un emprendedor con mas de 30 años de experiencia.</p>
+									<ul class="social">
+										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+										<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+									</ul>
+								</div>
+							</div> <!-- End Card -->
+
+							<div class="card">
+								<img src="img/team/team2.jpg" alt="" class="card-img-top rounded-0">
+								<div class="card-body">
+									<h4 class="font-weight-bold">Maricela Guevara</h4>
+									<h5 class="text-nuno">Gerente</h5>
+									<p class="border-top border-bottom py-3 my-3">Miembro del equipo desde hace mas de 20 años, es parte fundamental de la familia brasil.</p>
+									<ul class="social">
+										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+										<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+									</ul>
+								</div>
+							</div> <!-- End Card -->
+
+							<div class="card">
+								<img src="img/team/team3.jpg" alt="" class="card-img-top rounded-0">
+								<div class="card-body">
+									<h4 class="font-weight-bold">Carlos Perez</h4>
+									<h5 class="text-nuno">Vice Presidente</h5>
+									<p class="border-top border-bottom py-3 my-3">Carlos fue a la escuela de negocios y subió la escalera.</p>
+									<ul class="social">
+										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+										<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+									</ul>
+								</div>
+							</div> <!-- End Card -->
+
+							<div class="card">
+								<img src="img/team/team4.jpg" alt="" class="card-img-top rounded-0">
+								<div class="card-body">
+									<h4 class="font-weight-bold">Cindy Wences</h4>
+									<h5 class="text-nuno">CFO</h5>
+									<p class="border-top border-bottom py-3 my-3">Cindy tiene experiencia en operaciones financieras.</p>
+									<ul class="social">
+										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+										<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+									</ul>
+								</div>
+							</div> <!-- End Card -->
+
+						</div> <!-- End Team Carousel -->
+					</div> <!-- End Animation -->
+				</div><!-- End Container -->
+
+			</div> <!-- End Row -->
+
+			<div class="fixed-wrap">
+				<div class="fixed-light"></div>
+			</div>
+		</div>
+		<!-- End Fixed BG IMG Light -->
+
+	</div>
+	<!-- End Team Section -->
+
+
+	
+	<!-- Start Clients Section -->
+	<div id="clients" class="offset">
+
+		<div class="row py-5">
+
+			<div class="col-12 os-animation" data-animation="fadeInUp">
+				<h3 class="heading">Nuestros clientes</h3>
+				<div class="heading-underline"></div>
+			</div>
+
+			<div class="col-12 px-xl-5 os-animation" data-animation="fadeInUp">
+				<div id="clients-carousel" class="owl-carousel owl-theme">
+
+					<div class="row clients px-3 px-md-4">
+						<div class="col-lg-4 my-auto">
+							<img src="img/clients/client1.jpg" alt="">
+						</div>
+						<div class="col-lg-8">
+							<blockquote class="text-justify">
+								<i class="fas fa-quote-left"></i>
+								Veo el apoyo de Zapataria Brasil más como un socio para mi empresa que como un recurso. Puedo levantar el teléfono y hablar con cualquier persona en cualquier momento y la forma en que interactúan con nosotros como empresa lo hace realmente simple.
+								<hr class="clients-hr">
+								<cite>&#8212; Eric, Small Business Owner</cite>
+							</blockquote>
+						</div>
+					</div>
+
+					<div class="row clients px-3 px-md-4">
+						<div class="col-lg-4 my-auto">
+							<img src="img/clients/client2.jpg" alt="">
+						</div>
+						<div class="col-lg-8">
+							<blockquote class="text-justify">
+								<i class="fas fa-quote-left"></i>
+								Lo mejor de Zapateria Brasil es que no es solo un proveedor de zapatos, es una empresa comprometida con sus clientes. El diseño de su zalzado es perfecto, se encuentra cualquier variedad de calzado a los mejores precios.
+								<hr class="clients-hr">
+								<cite>&#8212; Rachel, Professional Photographer</cite>
+							</blockquote>
+						</div>
+					</div>
+
+					<div class="row clients px-3 px-md-4">
+						<div class="col-lg-4 my-auto">
+							<img src="img/clients/client3.jpg" alt="">
+						</div>
+						<div class="col-lg-8">
+							<blockquote class="text-justify">
+								<i class="fas fa-quote-left"></i>
+								¡Es una empresa fantástica! Tiene todos los elementos que se esperan de una zapateria. Disfrute mucho comprando botas de trabajo para mi equipo, me atendieron amablemente en todo momento.
+								<hr class="clients-hr">
+								<cite>&#8212; Ricky, Aspiring Developer</cite>
+							</blockquote>
+						</div>
+					</div>
+
+				</div> <!-- End Carousel -->
+			</div> <!-- End Column -->
+
+		</div> <!-- End Row -->
+
+	</div>
+	<!-- End of Clients Section -->
+
+
+	<!-- Start Contact Section -->
+	<div id="contact" class="offset">
+
+		<div class="container-fluid footer px-0">
+			<div class="row outer">
+
+				<div class="container">
+					<div class="row py-3">
+
+						<div class="col-md-5 px-0 pr-md-3">
+							<img src="img/nuno.png" alt="">
+							<p>Nuestro objetivo es brindarte calzado a la moda, de mejor calidad y a los mejores precios.</p>
+							<strong>Dirección</strong>
+							<p>Calle Emiliano Zapata 29, Centro, 62580 Temixco, Mor.</p>
+							<strong>Contact Info</strong>
+							<p>(777) 186-2220<br>email@brasil.com</p>
+							<ul class="social pt-3">
+								<li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+								<li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+								<li><a href=""><i class="fab fa-instagram"></i></a></li>
+								<li><a href=""><i class="fab fa-youtube-square"></i></a></li>
+								<li><a href=""><i class="fab fa-linkedin"></i></a></li>
+							</ul>
+						</div> <!-- End Column -->
+
+						<div class="col-md-7 px-0 pl-md-3">
+							<h3>Contactanos</h3>
+
+							<form action="contact/contact.php" method="POST" id="contact-form">
+
+								<div class="messages"></div>
+								<div class="controls">
+
+									<div class="form-group">
+										<input type="text" id="form_name" class="form-control" name="name" required="required" placeholder="Ingresa tu nombre.">
+									</div>
+
+									<div class="form-group">
+										<input type="email" id="form_email" class="form-control" name="email" required="required" placeholder="Ingresa tu email.">
+									</div>
+
+									<div class="form-group">
+										<textarea name="message" id="form_message" rows="4" class="form-control" required="required" placeholder="Escribe tu mensaje."></textarea>
+									</div>
+
+									<input type="submit" class="btn btn-outline-light btn-sm" value="Enviar">
+
+								</div> <!-- End Controls -->
+							
+							</form> <!-- End Form -->
+
+						</div> <!-- End Row -->
+
+					</div> <!-- End Row -->
+				</div> <!-- End Container -->
+
+				<hr class="socket">
+				&copy; Zapateria Brasil.
+
+			</div> <!-- End Row Outer -->
+		</div> <!-- End Container Fluid -->
+		
+	</div>
+	<!-- End Contact Section -->
+
+
+	<!-- Top Scroll -->
+	<a href="#home" class="top-scroll">
+		<i class="fa fa-angle-up"></i>
+	</a>
+	<!-- End of Top Scroll -->
+
+
+	<!-- Script Source Files -->
+
+
+	<!-- Plugins.js -->
+	<script src="js/plugins.js"></script>
+	<!-- Waypoints https://cdnjs.com/libraries/waypoints
+		https://github.com/imakewebthings/waypoints -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+	<!-- Font Awesome https://fontawesome.com/  https://use.fontawesome.com/releases/v5.11.2/js/all.js -->
+	<script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
+	<!-- Lightbox Image Gallery https://cdnjs.com/libraries/lightbox2  https://lokeshdhakar.com/projects/lightbox2/ -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+	<!-- Owl Carousel https://cdnjs.com/libraries/OwlCarousel2
+		http://owlcarousel2.github.io/OwlCarousel2/ -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<!-- jQuery CounterUp https://www.jsdelivr.com/package/npm/jquery.counterup
+		https://github.com/bfintal/Counter-Up2 -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery.counterup@2.1.0/jquery.counterup.min.js"></script>
+	<!-- Bootstrap Form Validator https://cdnjs.com/libraries/1000hz-bootstrap-validator -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+	
+	<!-- End of Script Source Files -->
+
+</body>
+</html>
